@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+
+    
+    <!------choose difficulty------>
+    <h1>Memory Card Game</h1>
+    <div class="container">
+        <div class="StartGame">
+            <div class="card active" level="2" column="2" row="2">
+                <div class="front">Easy</div>
+                <div class="back">2 * 2</div>
+            </div>
+            <div class="card active" level="6" column="3" row="4">
+                <div class="front">Hard</div>
+                <div class="back">3 * 4</div>
+            </div>
+
+            <div class="card active" level="8" column="4" row="4">
+                <div class="front">Expert</div>
+                <div class="back">4 * 4</div>
+            </div>
+            
+        <!--------startgame button--------->
+            <span></span>
+            <button>Start Game</button>
+            <span></span>
+        </div>
+        <!---------playarea ground-------->
+        <div class="playground">
+          
+        </div>
+      
+    </div>
+   <!------------adding images/icons---------->
+   <i class="fa-solid  fa-repeat" style="display: none;"></i>
+
+   
+   
+  
+    <script src="script.js"></script>
+</body>
+</html>
